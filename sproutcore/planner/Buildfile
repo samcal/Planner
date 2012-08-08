@@ -1,0 +1,29 @@
+# ==========================================================================
+# Project:   Planner
+# Copyright: @2012 Nick Landolfi and Sam Calvert
+# ==========================================================================
+
+# This is your Buildfile, which sets build settings for your project.
+# For example, this tells SproutCore's build tools that EVERYTHING
+# requires the SproutCore framework.
+config :all, :required => :sproutcore
+
+# In addition to this Buildfile, which gives settings for your entire project,
+# each of your apps has its own Buildfile with settings specific to that app.
+
+# Proxies
+proxy "/img", :to => "127.0.0.1:8000", :inactivity_timeout => 5
+proxy "/login", :to => "127.0.0.1:8000", :inactivity_timeout => 5
+proxy "/logout", :to => "127.0.0.1:8000", :inactivity_timeout => 5
+proxy "/register", :to => "127.0.0.1:8000", :inactivity_timeout => 5
+proxy "/validate", :to => "127.0.0.1:8000", :inactivity_timeout => 5
+proxy "/forgotPassword", :to => "127.0.0.1:8000", :inactivity_timeout => 5
+proxy "/isLoggedIn", :to => "127.0.0.1:8000", :inactivity_timeout => 5
+proxy "/course", :to => "127.0.0.1:8000", :inactivity_timeout => 5
+proxy "/courses", :to => "127.0.0.1:8000", :inactivity_timeout => 5
+proxy "/events", :to => "127.0.0.1:8000", :inactivity_timeout => 5
+proxy "/assignment", :to => "127.0.0.1:8000", :inactivity_timeout => 5
+proxy "/test", :to => "127.0.0.1:8000", :inactivity_timeout => 5
+proxy "/note", :to => "127.0.0.1:8000", :inactivity_timeout => 5
+proxy "/task", :to => "127.0.0.1:8000", :inactivity_timeout => 5
+proxy "/poll", :to => "127.0.0.1:8000", :inactivity_timeout => 5

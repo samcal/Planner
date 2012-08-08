@@ -1,0 +1,291 @@
+/* line 11, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/* line 19, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.sc-pane {
+  -webkit-transform: none;
+}
+
+/* line 26, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.date {
+  background-color: transparent;
+  color: #6e512b;
+  cursor: pointer;
+  font-size: 2.2em;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15), 0 0px 0 rgba(255, 255, 255, 0.8);
+}
+
+/* line 33, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.bookMark {
+  background-color: maroon;
+  color: #faf9ec;
+  line-height: 35px;
+  font-size: 1.2em;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0px 0px 7px 2px #333333 inset;
+  padding: 8px 0 0 0;
+}
+
+/* line 43, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.copyrightInfo {
+  color: #6e512b;
+  font-size: 10px;
+}
+
+/* line 48, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane {
+  background-image: url('/static/planner/en/current/source/resources/img/background.png?1332650827');
+  box-shadow: 0px 0px 400px 2px #6e512b inset;
+}
+/* line 51, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .loginBin {
+  background-color: #faf9ec;
+  border-radius: 7px;
+  box-shadow: 0px 0px 7px 2px #634720;
+}
+/* line 55, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .loginBin .sc-text-field-view {
+  font-size: 22px;
+  color: maroon;
+  border: none;
+  border: solid 2px maroon;
+  border-radius: 14px;
+  outline: none;
+  line-height: 30px;
+  background: transparent;
+  box-shadow: 0px 0px 4px 1px #cebdbe inset;
+}
+/* line 65, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .loginBin .sc-text-field-view .field {
+  color: maroon;
+  font-size: 22px;
+}
+/* line 69, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .loginBin .sc-text-field-view .hint {
+  color: #cebdbe;
+  font-size: 22px;
+}
+/* line 73, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .loginBin .sc-text-field-view .padding {
+  left: 35px;
+}
+/* line 77, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .loginBin .lowBin {
+  background: transparent;
+}
+/* line 79, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .loginBin .lowBin .submit {
+  cursor: pointer;
+  line-height: 35px;
+  font-size: 22px;
+  background: transparent;
+  border: solid 2px maroon;
+  color: maroon;
+  border-radius: 14px;
+  box-shadow: 0px 0px 7px 1px #cebdbe;
+}
+/* line 88, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .loginBin .lowBin .submit:active {
+  box-shadow: 0px 1px 10px 1px #cebdbe inset;
+}
+/* line 91, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .loginBin .lowBin .submit .sc-button-label {
+  position: relative;
+  display: block;
+  line-height: 35px;
+  text-align: center;
+  margin-top: 0px;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 103, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .createAccountBin {
+  background-color: #faf9ec;
+  border-radius: 7px;
+  box-shadow: 0px 0px 7px 2px #634720;
+}
+/* line 107, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .createAccountBin .sc-text-field-view {
+  font-size: 22px;
+  color: maroon;
+  border: none;
+  border: solid 2px maroon;
+  border-radius: 14px;
+  outline: none;
+  line-height: 25px;
+  background: transparent;
+  box-shadow: 0px 0px 4px 1px #cebdbe inset;
+}
+/* line 117, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .createAccountBin .sc-text-field-view .field {
+  color: maroon;
+  font-size: 18px;
+}
+/* line 121, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .createAccountBin .sc-text-field-view .hint {
+  color: #cebdbe;
+  font-size: 18px;
+}
+/* line 125, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .createAccountBin .sc-text-field-view .padding {
+  left: 13px;
+}
+/* line 129, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .createAccountBin .submit {
+  cursor: pointer;
+  line-height: 30px;
+  font-size: 18px;
+  background: transparent;
+  border: solid 2px maroon;
+  color: maroon;
+  border-radius: 14px;
+  box-shadow: 0px 0px 7px 1px #cebdbe;
+}
+/* line 138, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .createAccountBin .submit:active {
+  box-shadow: 0px 1px 10px 1px #cebdbe inset;
+}
+/* line 141, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .createAccountBin .submit .sc-button-label {
+  position: relative;
+  display: block;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 0px;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 154, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .forgotPasswordBin .sc-text-field-view {
+  line-height: 19px;
+  font-size: 13px;
+  background: transparent;
+  border: solid 1px #6e512b;
+  color: #6e512b;
+  border-radius: 8px 0 0 8px;
+  box-shadow: 0px 1px 1px 0px #6e512b;
+  outline: none;
+}
+/* line 163, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .forgotPasswordBin .sc-text-field-view .field {
+  color: #6e512b;
+  font-size: 14px;
+}
+/* line 167, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .forgotPasswordBin .sc-text-field-view .hint {
+  color: #886538;
+  font-size: 14px;
+}
+/* line 171, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .forgotPasswordBin .sc-text-field-view .padding {
+  left: 13px;
+}
+/* line 175, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .forgotPasswordBin .brownButton {
+  font-size: 14px;
+  line-height: 24px;
+  border-radius: 0 8px 8px 0;
+}
+
+/* line 184, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.sc-button-label {
+  cursor: pointer;
+}
+
+/* line 188, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.brownButton {
+  cursor: pointer;
+  line-height: 19px;
+  font-size: 13px;
+  background: transparent;
+  border: solid 1px #6e512b;
+  color: #6e512b;
+  border-radius: 8px;
+  box-shadow: 0px 1px 1px 0px #6e512b;
+}
+/* line 197, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.brownButton .sc-button-label {
+  position: relative;
+  display: block;
+  line-height: 21px;
+  text-align: center;
+  margin-top: 0px;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 206, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.brownButton:active {
+  box-shadow: 0px 1px 5px 0px #6e512b inset;
+}
+
+/* line 211, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginHeader {
+  color: #6e512b;
+  font-size: 18px;
+}
+
+/* line 215, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginRule {
+  color: #6e512b;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* line 221, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane {
+  background-image: url('/static/planner/en/current/source/resources/img/background.png?1332650827');
+  border-radius: 5px;
+  box-shadow: 0px 0px 400px 2px #6e512b;
+}
+/* line 225, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .sideView {
+  border-radius: 10px;
+  background-color: #faf9ec;
+  box-shadow: 0px 0px 7px 2px #634720;
+}
+/* line 230, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .mainView {
+  border-radius: 10px;
+  background-color: #faf9ec;
+  box-shadow: 0px 0px 7px 2px #333333 inset;
+}
+
+/* line 238, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.calendar {
+  color: #6e512b;
+  font-size: 1.3em;
+}
+
+/* line 239, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.calDayHead {
+  font-size: .7em;
+  text-align: center;
+}
+
+/* line 240, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.calDay {
+  padding: .2em .3em .1em .34em;
+  text-align: center;
+  line-height: 1.3em;
+}
+
+/* line 241, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.calDay:hover {
+  box-shadow: 0 0 .4em .2em #6e512b inset;
+  border-radius: .5em;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* line 242, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+#cal-scrollL, #cal-scrollR {
+  cursor: pointer;
+}
+

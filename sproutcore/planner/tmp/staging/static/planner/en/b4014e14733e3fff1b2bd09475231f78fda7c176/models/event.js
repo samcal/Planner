@@ -1,0 +1,41 @@
+sc_require('core');
+
+Planner.Event = SC.Record.extend({
+	name: SC.Record.attr(String),
+	date: SC.Record.attr(SC.DateTime, {format: '%Y-%m-%d', useIsoDate:YES}),
+});
+
+Planner.Note = Planner.Event.extend({
+	file: SC.Record.attr(String),
+	description: SC.Record.attr(String),
+	course: SC.Record.toOne("Planner.Course", {
+		inverse: "notes",
+		isMaster: NO,
+	}),
+});
+
+Planner.Test = Planner.Event.extend({
+	description: SC.Record.attr(String),
+	course: SC.Record.toOne("Planner.Course", {
+		inverse: "tests",
+		isMaster: NO,
+	}),
+});
+
+Planner.Task = Planner.Event.extend({
+	isComplete: SC.Record.attr(Boolean),
+	course: SC.Record.toOne("Planner.Course", {
+		inverse: "tasks",
+		isMaster: NO,
+	}),
+});
+
+Planner.Assignment = Planner.Task.extend({
+	description: SC.Record.attr(String),
+	dateAssigned: SC.Record.attr(SC.DateTime, {format: '%Y-%m-%d'}),
+	dateDue: SC.Record.attr(SC.DateTime, {format: '%Y-%m-%d'}),
+	course: SC.Record.toOne("Planner.Course", {
+		inverse: "assignments",
+		isMaster: NO,
+	}),
+});

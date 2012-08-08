@@ -1,0 +1,5 @@
+cd /Users/sam/Dropbox/Planner/sproutcore/planner
+rm /Users/sam/Dropbox/Planner/templates/index.html
+rm -rf /Users/sam/Dropbox/Planner/static
+sproutcore build --dont-minify --buildroot /Users/sam/Dropbox/Planner
+cp /Users/sam/Dropbox/Planner/static/planner/en/*/index.html /Users/sam/Dropbox/Planner/templates/

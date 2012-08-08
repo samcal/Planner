@@ -1,0 +1,317 @@
+
+
+$theme: '.ace.planner';
+$theme: '.planner';
+$background: 'img/leatherTex7.png';
+$lightMaroon: #cebdbe;
+$brown: #6e512b;
+$lightBrown: #886538;
+$offWhite: #FAF9EC;
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+
+}
+ 
+
+.sc-pane {
+  -webkit-transform: none;
+}
+
+
+
+
+#{$theme}.bookmark {
+	background-color:maroon;
+	color: $offWhite;
+	line-height: 35px;
+	font-size: 1.2em;
+	border-radius:0 0 5px 5px;
+	box-shadow: 0px 0px 7px 2px #333333 inset;
+	padding: 8px 0 0 0;
+}
+
+#{$theme}.utilItem {
+	font-size: 15px;
+	line-height: 15px;
+	color: white;
+	border-top: 2px #641212 solid;
+	cursor: pointer;
+	&:active{
+		box-shadow: 0px 0px 20px 1px #333333 inset;
+	}
+	.sc-button-label {
+		cursor: pointer;
+	}
+}
+
+#{$theme}.weekView {
+	border: .0001% #999999 solid;
+}
+
+#{$theme}.week-cell {
+		border: 1px #999999 solid;
+}
+#{$theme}.period-tab {
+	box-shadow: 0px 0px 7px 2px #333333 inset;
+	background: maroon;
+	color: white;
+	border-radius: 5px 0 0 5px;
+}
+#{$theme}.header-tab {
+	box-shadow: 0px 0px 7px 2px #333333 inset;
+	background: maroon;
+	color: white;
+	text-align:center;
+	border-radius: 5px 5px 0 0;
+}
+
+#{$theme}.ledge {
+	background: $lightBrown;
+	box-shadow: 0 0 1px 1px $brown inset;
+	color: white;
+	border-radius:1px;
+}
+
+
+
+#{$theme}.loginPane {
+	background-image: static_url($background);
+	/*box-shadow: 0px 0px 400px 2px $brown inset;*/
+	box-shadow: 0px 0px 30px 2px $brown inset;
+	.date {
+		
+		display: none;
+		background-color: transparent;
+		color: $brown;
+		cursor: pointer;
+		font-size: 2.2em;
+		text-shadow: 0 -1px 0 rgba(0,0,0,0.15),0 0px 0 rgba(255,255,255,0.8);
+	}
+	.copyrightInfo {
+		color: $brown;
+		font-size: 10px;
+	}
+	.loginHeader {
+		color: #6e512b;
+		font-size: 18px;
+	}
+	.loginRule {
+		color: #6e512b;
+		font-size: 32px;
+		font-weight: bold;
+	}
+	.loginBin {
+		background-color: $offWhite;
+		border-radius: 7px;
+		box-shadow: 0px 0px 7px 2px #634720;
+		.sc-text-field-view.login-text-field  {
+			text-align:center;
+			line-height: 31px;
+			.field {
+				font-size: 21px;
+				text-align:center;
+			}
+			.hint {
+		    font-size: 21px;
+		  }
+		  .padding {
+		  	left: 0px;
+		  }
+		}
+		.submit {
+			cursor: pointer;
+			line-height: 35px;
+			font-size: 22px;
+			background: transparent;
+			border: solid 2px maroon;
+			color: maroon;
+			border-radius: 14px;
+			box-shadow: 0px 0px 7px 1px #cebdbe;
+			&:active {
+				box-shadow: 0px 1px 10px 1px #cebdbe inset;
+			}
+			.sc-button-label {
+				position: relative;
+		    display: block;
+		    line-height: 35px;
+		    text-align: center;
+		    margin-top: 0px;
+		    cursor: pointer;
+		    padding-left: 10px; padding-right: 10px;
+			}
+		}
+		.spinner {
+			display: none;
+		}
+	}
+	.forgotPasswordBin {
+			.sc-text-field-view {
+				line-height: 19px;
+				font-size: 13px;
+				background: transparent;
+				border: solid 1px #6e512b;
+				color: #6e512b;
+				border-radius: 8px 0 0 8px;
+				box-shadow: 0px 1px 1px 0px #6e512b;
+				outline: none;
+				.field {
+					color: $brown;
+					font-size: 14px;
+				}
+				.hint {
+					color:$lightBrown;
+			    font-size: 14px;
+			  }
+			  .padding {
+			  	left: 13px;
+			  }
+			}
+			.brownButton {
+				border-radius: 0 8px 8px 0;
+				.sc-button-label {
+					font-size: 13px;
+					line-height: 26px;
+				}
+			}
+		}
+	.createAccountBin {
+		background-color: $offWhite;
+		border-radius: 7px;
+		box-shadow: 0px 0px 7px 2px #634720;
+		.submit {
+			cursor: pointer;
+			line-height: 30px;
+			font-size: 18px;
+			background: transparent;
+			border: solid 2px maroon;
+			color: maroon;
+			border-radius: 14px;
+			box-shadow: 0px 0px 7px 1px #cebdbe;
+			&:active {
+				box-shadow: 0px 1px 10px 1px #cebdbe inset;
+			}
+			.sc-button-label {
+				position: relative;
+		    display: block;
+		    line-height: 30px;
+		    text-align: center;
+		    margin-top: 0px;
+		    cursor: pointer;
+		    padding-left: 10px; padding-right: 10px;
+			}
+		}
+		.spinner{
+			display: none;
+		}
+	}
+}
+
+#{$theme}.loginError, #{$theme}.loginStatus  {
+	background-color: maroon;
+	color: #ededed;
+	line-height: 30px;
+	font-size: 15px;
+	border-radius: 5px;
+	/* Do not initially display the error/status, fade in when showError() is called */
+	display: none;
+}#{$theme}.loginStatus{background: green;}
+
+#{$theme}.brownButton {
+	cursor: pointer;
+	line-height: 19px;
+	font-size: 13px;
+	background: transparent;
+	border: solid 1px #6e512b;
+	color: #6e512b;
+	border-radius: 8px;
+	box-shadow: 0px 1px 1px 0px #6e512b;
+	.sc-button-label {
+    position: relative;
+    display: block;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 0px;
+    cursor: pointer;
+    padding-left: 10px; padding-right: 10px;
+  }
+  &:active {
+  	box-shadow: 0px 1px 5px 0px #6e512b inset;
+  }
+}
+
+
+
+#{$theme}.plannerPane {
+	background-image: static_url($background);
+	.date {
+		background-color: transparent;
+		color: $brown;
+		cursor: pointer;
+		font-size: 2.2em;
+	}
+	.bookmark{
+		cursor: pointer;
+	}
+	.util {
+		background: maroon;
+		color:white;
+		box-shadow: 0px 0px 7px 2px #333333 inset;
+		bottom-border: 1px white solid;
+	}
+  .sideView {
+  	
+  	display: none;
+  	border-radius: 5px;
+  	background-color: #ffffff;
+  	box-shadow: 0px 0px 7px 2px #634720;
+  }
+  .mainView {
+  	
+  	display: none;
+  	border-radius: 1px 1px 3px 3px;
+  	background-color: #ffffff;
+  	box-shadow: 0px 2px 3px 2px $lightBrown;
+  }
+  .title {
+  	color: black;
+  	font-size: 1.5em;
+  }
+  
+}
+
+#{$theme}.sc-text-field-view.login-text-field {
+	color: maroon;
+	border: solid 2px maroon;
+	border-radius: 14px;
+	outline: none;
+	outline-width: 0;
+	line-height: 25px;
+	background: transparent;
+	box-shadow: 0px 0px 4px 1px #cebdbe inset;
+	color:$lightMaroon;
+  font-size: 18px;
+	.field {
+		color: maroon;
+		font-size: 18px;
+
+	}
+	.hint {
+		color:$lightMaroon;
+    font-size: 18px;
+  }
+  .padding {
+  	left: 13px;
+  }
+  &:focus{
+  	outline: none;
+  }
+}
+
+#{$theme}.firefox{
+	.sc-button-label{
+		line-height: 37;
+	}
+}

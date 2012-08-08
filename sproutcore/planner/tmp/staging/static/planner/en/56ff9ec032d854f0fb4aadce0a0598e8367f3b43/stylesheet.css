@@ -1,0 +1,728 @@
+/* Slice resources/img/track_and_arrows_0_16__1__0, used in: 
+	resources/styles.css;
+*/
+/* line 3, ./tmp/chance/image_css/planner/_image_css.scss */
+ .planner.sc-scroller-view.sc-vertical .track {
+  background-image: url('/static/planner/en/56ff9ec032d854f0fb4aadce0a0598e8367f3b43/stylesheet-repeat-y.png')
+;
+}
+
+/* Slice resources/img/track_and_arrows_0_0__16__0, used in: 
+	resources/styles.css;
+*/
+/* line 6, ./tmp/chance/image_css/planner/_image_css.scss */
+ .planner.sc-scroller-view.sc-vertical .cap {
+  background-image: url('/static/planner/en/56ff9ec032d854f0fb4aadce0a0598e8367f3b43/stylesheet-no-repeat.png')
+;
+}
+
+/* Slice resources/img/track_and_arrows_0___26_15_0, used in: 
+	resources/styles.css;
+*/
+/* line 9, ./tmp/chance/image_css/planner/_image_css.scss */
+ .planner.sc-scroller-view.sc-vertical .button-top, .planner.sc-scroller-view.sc-vertical .button-left {
+  background-image: url('/static/planner/en/56ff9ec032d854f0fb4aadce0a0598e8367f3b43/stylesheet-no-repeat.png')
+;
+}
+
+/* Slice resources/img/track_and_arrows_0___15_0_0, used in: 
+	resources/styles.css;
+*/
+/* line 12, ./tmp/chance/image_css/planner/_image_css.scss */
+ .planner.sc-scroller-view.sc-vertical .button-right, .planner.sc-scroller-view.sc-vertical .button-bottom {
+  background-image: url('/static/planner/en/56ff9ec032d854f0fb4aadce0a0598e8367f3b43/stylesheet-no-repeat.png')
+;
+}
+
+/* Slice resources/img/track_and_arrows_active_0___26_15_0, used in: 
+	resources/styles.css;
+*/
+/* line 15, ./tmp/chance/image_css/planner/_image_css.scss */
+ .planner.sc-scroller-view.sc-vertical .button-top:active, .planner.sc-scroller-view.sc-vertical .button-left:active,
+.planner.sc-scroller-view.sc-vertical .button-top.active, .planner.sc-scroller-view.sc-vertical .button-left.active {
+  background-image: url('/static/planner/en/56ff9ec032d854f0fb4aadce0a0598e8367f3b43/stylesheet-no-repeat.png')
+;
+}
+
+/* Slice resources/img/track_and_arrows_active_0___15_0_0, used in: 
+	resources/styles.css;
+*/
+/* line 18, ./tmp/chance/image_css/planner/_image_css.scss */
+ .planner.sc-scroller-view.sc-vertical .button-right:active, .planner.sc-scroller-view.sc-vertical .button-bottom:active,
+.planner.sc-scroller-view.sc-vertical .button-right.active, .planner.sc-scroller-view.sc-vertical .button-bottom.active {
+  background-image: url('/static/planner/en/56ff9ec032d854f0fb4aadce0a0598e8367f3b43/stylesheet-no-repeat.png')
+;
+}
+
+/* Slice resources/img/thumb_0_10__1__0, used in: 
+	resources/styles.css;
+*/
+/* line 21, ./tmp/chance/image_css/planner/_image_css.scss */
+ .planner.sc-scroller-view.sc-vertical .thumb-center {
+  background-image: url('/static/planner/en/56ff9ec032d854f0fb4aadce0a0598e8367f3b43/stylesheet-repeat-y.png')
+;
+}
+
+/* Slice resources/img/thumb_0_0__10__0, used in: 
+	resources/styles.css;
+*/
+/* line 24, ./tmp/chance/image_css/planner/_image_css.scss */
+ .planner.sc-scroller-view.sc-vertical .thumb-top, .planner.sc-scroller-view.sc-vertical .thumb-left {
+  background-image: url('/static/planner/en/56ff9ec032d854f0fb4aadce0a0598e8367f3b43/stylesheet-no-repeat.png')
+;
+}
+
+/* Slice resources/img/thumb_0___10_0_0, used in: 
+	resources/styles.css;
+*/
+/* line 27, ./tmp/chance/image_css/planner/_image_css.scss */
+ .planner.sc-scroller-view.sc-vertical .thumb-right, .planner.sc-scroller-view.sc-vertical .thumb-bottom {
+  background-image: url('/static/planner/en/56ff9ec032d854f0fb4aadce0a0598e8367f3b43/stylesheet-no-repeat.png')
+;
+}
+
+/* line 11, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/* line 17, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.sc-pane {
+  -webkit-transform: none;
+}
+
+/* line 24, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.bookmark {
+  background-color: maroon;
+  color: #faf9ec;
+  line-height: 35px;
+  font-size: 1.2em;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0px 0px 7px 2px #333333 inset;
+  padding: 8px 0 0 0;
+}
+
+/* line 34, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.utilItem {
+  font-size: 15px;
+  line-height: 15px;
+  color: white;
+  border-top: 2px #641212 solid;
+  cursor: pointer;
+}
+/* line 40, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.utilItem:active {
+  box-shadow: 0px 0px 20px 1px #333333 inset;
+}
+/* line 43, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.utilItem .sc-button-label {
+  cursor: pointer;
+}
+
+/* line 49, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.week-cell, .planner.week-cell.top-left, .planner.week-cell.top-left-bottom, .planner.week-cell.top-left-bottom {
+  border: 1px #999999 solid;
+}
+
+/* line 53, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.week-cell.top-left {
+  border-right: none;
+  border-bottom: none;
+}
+
+/* line 57, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.week-cell.top-left-bottom {
+  border-right: none;
+}
+
+/* line 60, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.week-cell.top-left-right {
+  border-bottom: none;
+}
+
+/* line 63, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.period-tab {
+  box-shadow: 0px 0px 7px 2px #333333 inset;
+  background: maroon;
+  color: white;
+  border-radius: 5px 0 0 5px;
+}
+
+/* line 69, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.header-tab {
+  box-shadow: 0px 0px 7px 2px #333333 inset;
+  background: maroon;
+  color: white;
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+}
+
+/* line 77, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.ledge {
+  background: #886538;
+  box-shadow: 0 0 1px 1px #6e512b inset;
+  color: white;
+  border-radius: 1px;
+}
+
+/* line 86, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane {
+  background-image: url('/static/planner/en/56ff9ec032d854f0fb4aadce0a0598e8367f3b43/source/resources/img/leatherTex7.png');
+  box-shadow: 0px 0px 30px 2px #6e512b inset;
+  /*	box-shadow: 0px 0px 30px 2px $brown inset;
+  */
+}
+/* line 90, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .date {
+  display: none;
+  background-color: transparent;
+  color: #6e512b;
+  cursor: pointer;
+  font-size: 2.2em;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15), 0 0px 0 rgba(255, 255, 255, 0.8);
+}
+/* line 99, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .copyrightInfo {
+  color: #6e512b;
+  font-size: 10px;
+}
+/* line 103, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .loginHeader {
+  color: #6e512b;
+  font-size: 18px;
+}
+/* line 107, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .loginRule {
+  color: #6e512b;
+  font-size: 32px;
+  font-weight: bold;
+}
+/* line 112, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .loginBin {
+  background-color: #faf9ec;
+  border-radius: 7px;
+  box-shadow: 0px 0px 7px 2px #634720;
+}
+/* line 116, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .loginBin .sc-text-field-view.login-text-field {
+  text-align: center;
+  line-height: 31px;
+}
+/* line 119, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .loginBin .sc-text-field-view.login-text-field .field {
+  font-size: 21px;
+  text-align: center;
+}
+/* line 123, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .loginBin .sc-text-field-view.login-text-field .hint {
+  font-size: 21px;
+}
+/* line 126, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .loginBin .sc-text-field-view.login-text-field .padding {
+  left: 0px;
+}
+/* line 130, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .loginBin .submit {
+  cursor: pointer;
+  line-height: 35px;
+  font-size: 22px;
+  background: transparent;
+  border: solid 2px maroon;
+  color: maroon;
+  border-radius: 14px;
+  box-shadow: 0px 0px 7px 1px #cebdbe;
+}
+/* line 139, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .loginBin .submit:active {
+  box-shadow: 0px 1px 10px 1px #cebdbe inset;
+}
+/* line 142, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .loginBin .submit .sc-button-label {
+  position: relative;
+  display: block;
+  line-height: 35px;
+  text-align: center;
+  margin-top: 0px;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 152, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .loginBin .spinner {
+  display: none;
+}
+/* line 157, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .forgotPasswordBin .sc-text-field-view {
+  line-height: 19px;
+  font-size: 13px;
+  background: transparent;
+  border: solid 1px #6e512b;
+  color: #6e512b;
+  border-radius: 8px 0 0 8px;
+  box-shadow: 0px 1px 1px 0px #6e512b;
+  outline: none;
+}
+/* line 166, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .forgotPasswordBin .sc-text-field-view .field {
+  color: #6e512b;
+  font-size: 14px;
+}
+/* line 170, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .forgotPasswordBin .sc-text-field-view .hint {
+  color: #886538;
+  font-size: 14px;
+}
+/* line 174, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .forgotPasswordBin .sc-text-field-view .padding {
+  left: 13px;
+}
+/* line 178, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .forgotPasswordBin .brownButton {
+  border-radius: 0 8px 8px 0;
+}
+/* line 180, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .forgotPasswordBin .brownButton .sc-button-label {
+  font-size: 13px;
+  line-height: 26px;
+}
+/* line 186, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .createAccountBin {
+  background-color: #faf9ec;
+  border-radius: 7px;
+  box-shadow: 0px 0px 7px 2px #634720;
+}
+/* line 190, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .createAccountBin .submit {
+  cursor: pointer;
+  line-height: 30px;
+  font-size: 18px;
+  background: transparent;
+  border: solid 2px maroon;
+  color: maroon;
+  border-radius: 14px;
+  box-shadow: 0px 0px 7px 1px #cebdbe;
+}
+/* line 199, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .createAccountBin .submit:active {
+  box-shadow: 0px 1px 10px 1px #cebdbe inset;
+}
+/* line 202, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .createAccountBin .submit .sc-button-label {
+  position: relative;
+  display: block;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 0px;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 212, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginPane .createAccountBin .spinner {
+  display: none;
+}
+
+/* line 218, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginError, .planner.loginStatus {
+  background-color: maroon;
+  color: #ededed;
+  line-height: 30px;
+  font-size: 15px;
+  border-radius: 5px;
+  /* Do not initially display the error/status, fade in when showError() is called */
+  display: none;
+}
+
+/* line 226, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.loginStatus {
+  background: green;
+}
+
+/* line 228, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.brownButton {
+  cursor: pointer;
+  line-height: 19px;
+  font-size: 13px;
+  background: transparent;
+  border: solid 1px #6e512b;
+  color: #6e512b;
+  border-radius: 8px;
+  box-shadow: 0px 1px 1px 0px #6e512b;
+}
+/* line 237, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.brownButton .sc-button-label {
+  position: relative;
+  display: block;
+  line-height: 21px;
+  text-align: center;
+  margin-top: 0px;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 246, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.brownButton:active {
+  box-shadow: 0px 1px 5px 0px #6e512b inset;
+}
+
+/* line 251, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.pointer {
+  cursor: pointer;
+}
+
+/* line 255, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane {
+  background-image: url('/static/planner/en/56ff9ec032d854f0fb4aadce0a0598e8367f3b43/source/resources/img/leatherTex7.png');
+}
+/* line 257, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .date {
+  background-color: transparent;
+  color: #6e512b;
+  cursor: pointer;
+  font-size: 2.2em;
+}
+/* line 263, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .bookmark {
+  cursor: pointer;
+}
+/* line 266, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .util {
+  background: maroon;
+  color: white;
+  box-shadow: 0px 0px 7px 2px #333333 inset;
+  bottom-border: 1px white solid;
+}
+/* line 272, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .nav-bar {
+  font-family: 'Comic Sans', sans-serif;
+}
+/* line 274, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .nav-bar .left-arrow {
+  font-family: 'Comic Sans', sans-serif;
+  border-radius: 8px 0 0 8px;
+  line-height: 1.5em;
+  font-size: 1.2em;
+}
+/* line 280, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .nav-bar .left {
+  border-radius: 0;
+  border-left: none;
+  line-height: 1.5em;
+  font-size: 1.2em;
+}
+/* line 286, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .nav-bar .center {
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
+}
+/* line 291, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .nav-bar .right {
+  border-radius: 0;
+  border-right: none;
+}
+/* line 295, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .nav-bar .right-arrow {
+  border-radius: 0 8px 8px 0;
+}
+/* line 298, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .nav-bar .selected {
+  color: #faf9ec;
+}
+/* line 302, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .sideHeader {
+  color: #6e512b;
+  font-size: 1.6em;
+}
+/* line 306, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .sideRule {
+  color: #6e512b;
+  font-size: 1.9em;
+  font-weight: bold;
+}
+/* line 311, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .sideView {
+  display: none;
+  border-radius: 5px;
+  background-color: #faf9ec;
+  box-shadow: 0px 0px 7px 2px #634720;
+}
+/* line 317, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .sideView .course-view {
+  cursor: pointer;
+}
+/* line 319, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .sideView .course-view .course-num-tab {
+  font-size: 2.5em;
+  color: #faf9ec;
+  background: maroon;
+  box-shadow: 0px 0px 7px 2px #333333 inset;
+  border-radius: 15px 0 0 15px;
+  line-height: 1.7em;
+  text-align: center;
+  font-family: serif;
+  font-weight: bold;
+}
+/* line 330, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .sideView .course-view .course-desc-view {
+  border: 2px solid maroon;
+  border-radius: 0 15px 15px 0;
+  color: maroon;
+  font-family: "Comic Sans", sans-serif;
+  cursor: pointer;
+}
+/* line 336, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .sideView .course-view .course-desc-view .course-name {
+  cursor: pointer;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+/* line 341, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .sideView .course-view .course-desc-view .teacher-name {
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+}
+/* line 348, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .sideView .event-list {
+  display: none;
+}
+/* line 352, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .mainView {
+  display: none;
+  border-radius: 1px 1px 3px 3px;
+  background-color: #faf9ec;
+  box-shadow: 0px 2px 3px 2px #886538;
+}
+/* line 358, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .mainView .day-view, .planner.plannerPane .mainView .month-view {
+  display: none;
+}
+/* line 362, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .mainView .day-view {
+  border: 5px solid #d8b15f;
+  border-radius: 2px;
+  box-shadow: 0px 0px 7px 2px #886538 inset;
+}
+/* line 366, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .mainView .day-view .today {
+  box-shadow: -3px -1px 30px 0px #999999 inset;
+  border-right: 1px solid #999999;
+}
+/* line 370, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .mainView .day-view .tomorrow {
+  box-shadow: 3px 1px 30px 0px #999999 inset;
+}
+/* line 374, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .mainView .week-view {
+  margin-top: 0;
+}
+/* line 377, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .mainView .week-view .event-wrapper .sc-label-view {
+  margin-top: 0;
+}
+/* line 380, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .mainView .week-view .event-wrapper .sc-image-view {
+  margin-top: 0;
+}
+/* line 390, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .calendar .month-name {
+  color: #6e512b;
+  font-size: 1.75em;
+}
+/* line 394, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .calendar .sc-button-view {
+  border: none;
+  box-shadow: none;
+  font-size: 2em;
+}
+/* line 398, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .calendar .sc-button-view:active {
+  border: none;
+  box-shadow: none;
+}
+/* line 403, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .calendar .date-cell {
+  cursor: pointer;
+  line-height: 1.7em;
+  font-size: 2em;
+  background: transparent;
+  color: #6e512b;
+  text-align: center;
+}
+/* line 410, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .calendar .date-cell .sc-button-label {
+  position: relative;
+  display: block;
+  line-height: 21px;
+  text-align: center;
+  margin-top: 0px;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 419, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .calendar .date-cell:active {
+  text-align: center;
+  box-shadow: 0px 0px 10px 0px #6e512b inset;
+}
+/* line 425, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.plannerPane .title {
+  color: black;
+  font-size: 1.75em;
+}
+
+/* line 434, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.sc-text-field-view.login-text-field {
+  color: maroon;
+  border: 2px solid maroon;
+  border-radius: 14px;
+  outline: none;
+  outline-width: 0;
+  line-height: 25px;
+  background: transparent;
+  box-shadow: 0px 0px 4px 1px #cebdbe inset;
+  color: #cebdbe;
+  font-size: 18px;
+}
+/* line 445, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.sc-text-field-view.login-text-field .field {
+  color: maroon;
+  font-size: 18px;
+}
+/* line 449, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.sc-text-field-view.login-text-field .hint {
+  color: #cebdbe;
+  font-size: 18px;
+}
+/* line 453, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.sc-text-field-view.login-text-field .padding {
+  left: 13px;
+}
+/* line 456, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.sc-text-field-view.login-text-field:focus {
+  outline: none;
+}
+
+/* line 462, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.firefox .sc-button-label {
+  line-height: 37;
+}
+
+/* line 470, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.assignment, .planner.test, .planner.note, .planner.task {
+  border: 1px solid maroon;
+  border-radius: 5px;
+  color: maroon;
+}
+
+/* line 476, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.test {
+  border-color: #c79120;
+  color: #c79120;
+}
+
+/* line 479, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.note {
+  border-color: #4b9a2a;
+  color: #4b9a2a;
+}
+
+/* line 482, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.task {
+  border-color: #3a9ddc;
+  color: #3a9ddc;
+}
+
+/* line 489, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.sc-scroller-view.sc-vertical .track {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 14px;
+  background-position: 0px 0px;
+  background-repeat: repeat-y;
+}
+/* line 499, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.sc-scroller-view.sc-vertical .cap {
+  position: absolute;
+  width: 14px;
+  height: 16px;
+  top: 0px;
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+}
+/* line 509, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.sc-scroller-view.sc-vertical .button-top, .planner.sc-scroller-view.sc-vertical .button-left {
+  position: absolute;
+  background-position: 0px -16px;
+  background-repeat: no-repeat;
+  height: 26px;
+  width: 14px;
+  bottom: 15px;
+}
+/* line 519, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.sc-scroller-view.sc-vertical .button-right, .planner.sc-scroller-view.sc-vertical .button-bottom {
+  position: absolute;
+  background-position: 0px -42px;
+  background-repeat: no-repeat;
+  height: 15px;
+  width: 14px;
+  bottom: 0px;
+}
+/* line 530, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.sc-scroller-view.sc-vertical .button-top:active, .planner.sc-scroller-view.sc-vertical .button-left:active,
+.planner.sc-scroller-view.sc-vertical .button-top.active, .planner.sc-scroller-view.sc-vertical .button-left.active {
+  background-position: 0px -57px;
+  background-repeat: no-repeat;
+}
+/* line 536, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.sc-scroller-view.sc-vertical .button-right:active, .planner.sc-scroller-view.sc-vertical .button-bottom:active,
+.planner.sc-scroller-view.sc-vertical .button-right.active, .planner.sc-scroller-view.sc-vertical .button-bottom.active {
+  background-position: 0px -83px;
+  background-repeat: no-repeat;
+}
+/* line 542, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.sc-scroller-view.sc-vertical .thumb {
+  position: absolute;
+  overflow: visible;
+}
+/* line 547, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.sc-scroller-view.sc-vertical .thumb-center {
+  position: absolute;
+  width: 14px;
+  top: 10px;
+  bottom: 8px;
+             /* hack to account for a different cap length than is hard-coded in;
+we need a render delegate here pretty badly. */
+  background-position: -14px 0px;
+  background-repeat: repeat-y;
+}
+/* line 557, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.sc-scroller-view.sc-vertical .thumb-top, .planner.sc-scroller-view.sc-vertical .thumb-left {
+  position: absolute;
+  width: 14px;
+  top: 0px;
+  height: 10px;
+  background-position: 0px -98px;
+  background-repeat: no-repeat;
+}
+/* line 566, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.sc-scroller-view.sc-vertical .thumb-right, .planner.sc-scroller-view.sc-vertical .thumb-bottom {
+  position: absolute;
+  width: 14px;
+  bottom: -2px;
+              /* hack to account for a different cap length than is hard-coded in;
+we need a render delegate here pretty badly. */
+  height: 10px;
+  background-position: 0px -108px;
+  background-repeat: no-repeat;
+}
+
+/* line 577, ./tmp/chance//Users/sam/Dropbox/Planner/sproutcore/planner/apps/planner/resources/styles-css.scss */
+.planner.planner-scroller-view {
+  right: 3px;
+}
+
